@@ -16,4 +16,4 @@ This workshop teaches students natural language processing in Python, with topic
 
 ## Introduction to Machine Learning [[Notebook](intro_to_ml.ipynb) | [Solutions](intro_to_ml_filled.ipynb)]
 
-This workshop introduces the basic workflow of machine learning in Python using [scikit-learn](http://scikit-learn.org/stable/). It covers topic from feature engineering or feature learning to model evaluation and selection.
+This workshop introduces the basic workflow of machine learning in Python using [scikit-learn](http://scikit-learn.org/stable/). It covers topics from feature engineering or feature learning to model evaluation and selection.
