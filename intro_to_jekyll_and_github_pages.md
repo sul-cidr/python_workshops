@@ -95,8 +95,14 @@ For the requirements and setup process, see [https://github.com/sul-cidr/python_
 
 ## Workflow
 
-- Github desktop distinguishes between fetching and pulling
-
+- Once you've set up your local and remote repos, and added them into Github Desktop, there is a fairly consistent workflow you can use to update your site.
+  - In Github Desktop, in the upper right corner, click "Fetch/Pull Origin" to get changes from the remote repository. If you're the only person working on your site, your local and remote repositories should be kept in sync. However, it's good practice to always fetch/pull from the remote repo before doing any work to establish good practice for collaborative work.
+  - In your shell, run `bundle exec jekyll serve` to build, serve, and and watch your website.
+  - In your text editor, make any chances you wish.
+  - Check out your website locally in your browser, probably at [http://localhost:4000/](http://localhost:4000/).
+  - Once you're happy with your changes, review them in Github Desktop. When ready, write a commit message in the bottom left of Github Desktop. Hit the "Commit" button, making sure to commit to the gh-pages branch.
+  - Click "Push Origin" in the upper right of Github Desktop to push your changes to the remote repository. Github Pages will now rebuild your site with your changes.
+  - Check that it worked fine at your published site. Sometimes it takes a few minutes for Github to rebuild your page, so be patient.
 
 ## Helpful links
 - https://pages.github.com/
