@@ -9,7 +9,7 @@
 
 ## Create a Github account
 
-From the [Github home page](https://github.com/), sign up for a Github account. You only need a free account. For this workshop, your website will end up with a url like, www.username.github.io/projectname, so pick your username wisely. You can also add custom domains for your URL, but we won't be covering that in this workshop.  
+From the [Github home page](https://github.com/), sign up for a Github account. You only need a free account. For this workshop, your website will end up with a url like, username.github.io/projectname, so pick your username wisely. You can also add custom domains for your URL, but we won't be covering that in this workshop.
 
 ## Download Github Desktop
 
@@ -31,4 +31,4 @@ There are a number of great tutorials on Jekyll out there, some of which nicely 
 
 ## Download a text editor
 
-There a lot of text editors out there, and your OS might have one already installed. I like to recommend Atom, though, which is made by Github and has a lot of great options out of the box. See [Atom](https://atom.io/). Note that a text editor in this context is a plain text editor, which means that Microsoft Word or Apple Pages will *not* work.
+There are a lot of text editors out there, and your OS might have one already installed. I like to recommend Atom, though, which is made by Github and has a lot of great options out of the box. See [Atom](https://atom.io/). Note that a text editor in this context is a plain text editor, which means that Microsoft Word or Apple Pages will *not* work.
