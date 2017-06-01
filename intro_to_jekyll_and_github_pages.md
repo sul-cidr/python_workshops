@@ -40,9 +40,9 @@ For the requirements and setup process, see [https://github.com/sul-cidr/python_
 
 ## Create a Jekyll website in the folder for your repository on your local machine
 
-- Open your Bash shell and navigate to the local folder that matches your repository.
-- Once inside that directory, in the shell, type `git checkout -b gh-pages`. This creates a new branch of your project that we'll use to hold the website code. By using a separate branch for the website, we can continue using the master branch to hold the code or files for the project itself.
-- In the shell, run `jekyll new .`. This scaffolds a new website with the Jekyll framework.
+- We want to create a new branch called `gh-pages` that will house the code for our website. We're using a separate branch so that we can keep using the `master` branch for the code or files of the project itself.
+- In Github Desktop, click "File", then "New branch." Name it `gh-pages` and base it off `master`.
+- In the shell, inside the local directory of your repository, run `jekyll new .`. This scaffolds a new website with the Jekyll framework.
 - Key concepts: git branches, Jekyll scaffold
 
 ## Building the website locally
@@ -86,8 +86,8 @@ For the requirements and setup process, see [https://github.com/sul-cidr/python_
 
 - In Github Desktop, if you click on your project in the left sidebar, you should now see a list of files that have been changed. You can click on each file to see the new/changed content in each.
 - In the left sidebar of Github Desktop, in the "Summary" field, type a short message that explains the change you're making. For an initial commit, I often just put in "Initial commit." You could be a bit clearer and write something like "Scaffolds Jekyll website with configuration changes." If you wanted to go into more detail you could write something further, or use bullet points, in the "Description" field. Do pay attention to which branch you're adding your work. Github Desktop will show which branch in the top middle of the application pane.
-- After you hit commit, make sure to hit the "Publish" button in the top right. This will push your code up to Github so that the remote repository has all the changes. If you go back to the repository on Github in your browser and switch to the gh-pages branch, you should now see your code.
-- We now need to tell Github that we want to use the gh-pages branch as the source for Github Pages to build a website. In your browser, on the Github page for your repo, click "Settings". Scroll down to the section called "Github Pages". Usually, if a gh-pages branch exists, Github knows to set that as the source for Github Pages. If under "Source", it doesn't have gh-pages selected, go ahead and select it. In this same section, Github should tell you the URL for your site, which should be `githubusername.github.io/reponame`. If there are any problems building your site, Github will list the problems here and likely send you an email.
+- After you hit commit, make sure to hit the "Publish" button in the top right. This will push your code up to Github so that the remote repository has all the changes. If you go back to the repository on Github in your browser and switch to the `gh-pages` branch, you should now see your code.
+- We now need to tell Github that we want to use the `gh-pages` branch as the source for Github Pages to build a website. In your browser, on the Github page for your repo, click "Settings". Scroll down to the section called "Github Pages". Usually, if a `gh-pages` branch exists, Github knows to set that as the source for Github Pages. If under "Source", it doesn't have `gh-pages` selected, go ahead and select it. In this same section, Github should tell you the URL for your site, which should be `githubusername.github.io/reponame`. If there are any problems building your site, Github will list the problems here and likely send you an email.
 - Key concepts to explain: adding files, commits, pushing to remote
 
 ## Workflow
@@ -97,7 +97,7 @@ For the requirements and setup process, see [https://github.com/sul-cidr/python_
   - In your shell, run `bundle exec jekyll serve` to build, serve, and and watch your website.
   - In your text editor, make any chances you wish.
   - Check out your website locally in your browser, probably at [http://localhost:4000/](http://localhost:4000/).
-  - Once you're happy with your changes, review them in Github Desktop. When ready, write a commit message in the bottom left of Github Desktop. Hit the "Commit" button, making sure to commit to the gh-pages branch.
+  - Once you're happy with your changes, review them in Github Desktop. When ready, write a commit message in the bottom left of Github Desktop. Hit the "Commit" button, making sure to commit to the `gh-pages` branch.
   - Click "Push Origin" in the upper right of Github Desktop to push your changes to the remote repository. Github Pages will now rebuild your site with your changes.
   - Check that it worked fine at your published site. Sometimes it takes a few minutes for Github to rebuild your page, so be patient.
 
@@ -106,3 +106,4 @@ For the requirements and setup process, see [https://github.com/sul-cidr/python_
 - https://jekyllrb.com/
 - https://shopify.github.io/liquid/
 - http://programminghistorian.org/lessons/building-static-sites-with-jekyll-github-pages
+- Minimal critical editions: https://github.com/elotroalex/ed
